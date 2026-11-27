@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="H.M DEVMITH — creative graphic design services and customizable design products in Sri Lanka.">
+<title>H.M DEVMITH | TUTE Cover</title>
+<style>
+:root{--ink:#171923;--muted:#697080;--line:#e9eaf0;--paper:#fff;--soft:#f6f7fb;--accent:#6d5dfc;--accent2:#a99fff;--green:#20b66b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper)}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,92%);margin:auto}
+.topbar{background:#171923;color:#fff;text-align:center;padding:9px;font-size:12px;letter-spacing:.04em}
+header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{font-size:21px;font-weight:900;letter-spacing:-.06em}.brand span{color:var(--accent)}nav{display:flex;gap:25px;font-size:13px;font-weight:650;color:#424756}nav a:hover{color:var(--accent)}.navright{display:flex;align-items:center;gap:10px}.pill,.btn{border:0;border-radius:999px;padding:12px 18px;font-weight:750;font-size:13px;display:inline-flex;align-items:center;justify-content:center;gap:8px}.primary{background:var(--accent);color:white}.dark{background:var(--ink);color:white}.outline{background:white;border:1px solid var(--line);color:var(--ink)}.cart{position:relative;background:var(--soft);border:1px solid var(--line);border-radius:50%;width:42px;height:42px}.count{position:absolute;right:-4px;top:-5px;background:var(--accent);color:white;border-radius:50%;font-size:10px;width:18px;height:18px;display:grid;place-items:center}
+.hero{padding:72px 0 62px;background:radial-gradient(circle at 80% 20%,#e9e6ff 0,transparent 32%),linear-gradient(130deg,#fafaff,#f4f3ff 55%,#fff)}.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:46px}.eyebrow{color:var(--accent);font-weight:800;font-size:11px;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(42px,5.6vw,70px);line-height:1.02;letter-spacing:-.065em;margin:18px 0}.hero p{color:var(--muted);font-size:16px;line-height:1.8;max-width:520px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.note{font-size:12px;color:#818696}.visual{min-height:400px;position:relative;display:grid;place-items:center}.artboard{width:min(450px,100%);aspect-ratio:1.05;border-radius:28px;background:linear-gradient(145deg,#211d42,#6d5dfc 68%,#c4baff);padding:28px;box-shadow:0 30px 70px #4234a833;transform:rotate(2deg);color:white;position:relative;overflow:hidden}.artboard:before{content:"";position:absolute;width:250px;height:250px;border:1px solid #ffffff55;border-radius:50%;right:-65px;top:-40px}.artboard:after{content:"";position:absolute;width:190px;height:190px;border:1px solid #ffffff44;border-radius:50%;right:-30px;top:0}.art-small{font-size:10px;letter-spacing:.18em;opacity:.8}.art-title{font-size:clamp(34px,4vw,53px);line-height:.98;letter-spacing:-.06em;font-weight:900;margin-top:75px;max-width:290px}.art-tag{position:absolute;bottom:28px;left:28px;font-size:11px;letter-spacing:.12em}.floating{position:absolute;background:white;border:1px solid var(--line);box-shadow:0 14px 35px #1b1d2b15;padding:14px 17px;border-radius:15px;font-size:12px;font-weight:750}.float1{top:25px;left:-8px}.float2{bottom:22px;right:-10px}
+.trust{border-bottom:1px solid var(--line);padding:22px 0}.trustrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;color:#737989;font-size:12px;font-weight:700}.section{padding:76px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:30px}.section h2{font-size:clamp(28px,3.5vw,42px);letter-spacing:-.05em;margin:9px 0}.sub{color:var(--muted);font-size:14px;line-height:1.7;max-width:560px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.category{border:1px solid var(--line);border-radius:18px;padding:22px;background:white;transition:.2s}.category:hover,.product:hover{transform:translateY(-4px);box-shadow:0 15px 35px #1c21400d}.cat-icon{width:46px;height:46px;border-radius:14px;background:#efedff;color:var(--accent);display:grid;place-items:center;font-size:21px;margin-bottom:24px}.category h3{font-size:15px;margin:0 0 7px}.category p{font-size:12px;color:var(--muted);margin:0;line-height:1.6}
+.shop-area{background:var(--soft)}.products{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.product{border:1px solid var(--line);border-radius:18px;background:white;overflow:hidden;transition:.2s}.thumb{aspect-ratio:1.25;background:linear-gradient(135deg,#e8e5ff,#f8eaff);display:grid;place-items:center;padding:22px;position:relative}.image-thumb{padding:0;overflow:hidden;background:#f1eff4}.image-thumb img{width:100%;height:100%;object-fit:contain;display:block}.mock{width:74%;height:83%;border-radius:9px;background:white;box-shadow:0 12px 24px #28204b20;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:18px;transform:rotate(-3deg)}.mock b{font-size:clamp(17px,2vw,26px);line-height:1.05;letter-spacing:-.04em}.mock small{font-size:8px;letter-spacing:.16em;color:var(--accent);margin-bottom:12px}.mock i{font-size:10px;color:#737989;font-style:normal;margin-top:12px}.tag{position:absolute;top:13px;left:13px;background:white;border-radius:30px;padding:7px 10px;font-size:10px;font-weight:800}.product-info{padding:17px}.product-info h3{font-size:15px;margin:0 0 7px}.meta{font-size:11px;color:var(--muted)}.price-row{display:flex;align-items:center;justify-content:space-between;margin-top:17px}.price{font-weight:850;font-size:16px}.smallbtn{border:0;background:#efedff;color:var(--accent);border-radius:10px;padding:10px 12px;font-size:11px;font-weight:800}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{border-top:2px solid var(--accent);padding:18px 8px}.step b{font-size:11px;color:var(--accent);letter-spacing:.1em}.step h3{font-size:16px;margin:12px 0 8px}.step p{font-size:12px;line-height:1.7;color:var(--muted);margin:0}
+.cta{background:#191a28;color:white;border-radius:26px;padding:42px;display:flex;justify-content:space-between;align-items:center;gap:25px}.cta h2{font-size:clamp(27px,3.5vw,40px);letter-spacing:-.05em;margin:0 0 9px}.cta p{color:#c4c5d0;margin:0;font-size:13px}
+footer{background:#f7f7fa;border-top:1px solid var(--line);padding:45px 0 25px}.footgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}.footgrid h4{font-size:12px}.footgrid p,.footgrid a{display:block;font-size:12px;color:var(--muted);line-height:2}.copyright{border-top:1px solid var(--line);margin-top:30px;padding-top:18px;color:#888d9a;font-size:11px}
+.shop-head{padding:48px 0 28px;background:#f8f7ff}.shop-head h1{font-size:42px;letter-spacing:-.06em;margin:8px 0}.shop-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:20px 0}.search{flex:1;min-width:210px;border:1px solid var(--line);border-radius:12px;background:white;padding:13px 15px}.shop-controls select{border:1px solid var(--line);border-radius:12px;background:white;padding:13px}.shop-layout{display:grid;grid-template-columns:210px 1fr;gap:25px}.filters{border:1px solid var(--line);border-radius:16px;padding:18px;height:max-content}.filters h3{font-size:13px;margin:0 0 14px}.filter-list{display:grid;gap:12px;font-size:12px;color:var(--muted)}.filter-list label{display:flex;gap:8px;align-items:center}.filter-list input{accent-color:var(--accent)}.shop-results{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin:4px 0 15px}.empty{padding:40px;text-align:center;color:var(--muted);grid-column:1/-1}
+.modalback{position:fixed;inset:0;background:#10111bcc;z-index:30;display:none;align-items:center;justify-content:center;padding:18px}.modalback.open{display:flex}.modal{background:white;border-radius:20px;width:min(650px,100%);max-height:90vh;overflow:auto;padding:25px;position:relative}.close{position:absolute;right:17px;top:15px;border:0;background:var(--soft);border-radius:50%;width:34px;height:34px}.modal h2{font-size:25px;letter-spacing:-.04em}.modal p{color:var(--muted);font-size:13px;line-height:1.7}.modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.cartlist{display:grid;gap:12px}.cartitem{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding:12px 0;font-size:13px}.cartitem button{border:0;background:none;color:#c34;font-size:12px}.total{display:flex;justify-content:space-between;font-weight:850;padding:18px 0}
+.whatsapp{position:fixed;right:22px;bottom:22px;z-index:20;width:58px;height:58px;border-radius:50%;background:#20c66b;color:white;display:grid;place-items:center;box-shadow:0 10px 30px #20c66b55;font-size:26px;border:3px solid white}
+@media(max-width:850px){nav{display:none}.hero-grid{grid-template-columns:1fr}.visual{min-height:330px}.grid{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.footgrid{grid-template-columns:repeat(2,1fr)}.shop-layout{grid-template-columns:1fr}.filters{order:2}}
+@media(max-width:520px){.nav{height:64px}.brand{font-size:18px}.navright .pill{display:none}.hero{padding:48px 0}.hero h1{font-size:44px}.visual{min-height:290px}.artboard{padding:20px}.art-title{margin-top:55px}.float1{left:0}.float2{right:0}.section{padding:54px 0}.section-head{display:block}.grid{gap:10px}.category{padding:15px}.products{grid-template-columns:1fr 1fr;gap:10px}.product-info{padding:12px}.product-info h3{font-size:13px}.thumb{padding:12px}.steps{gap:10px}.cta{padding:26px;display:block}.cta .btn{margin-top:18px}.footgrid{gap:15px}.shop-head h1{font-size:34px}.shop-controls select{flex:1}.whatsapp{width:52px;height:52px;right:15px;bottom:15px}}
+
+/* Motion design */
+@keyframes floatArtwork{0%,100%{transform:translateY(0) rotate(2deg)}50%{transform:translateY(-12px) rotate(1deg)}}
+@keyframes driftBadge{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes softGlow{0%,100%{box-shadow:0 30px 70px #4234a833}50%{box-shadow:0 34px 85px #6d5dfc55}}
+@keyframes fadeRise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+.artboard{animation:floatArtwork 6s ease-in-out infinite,softGlow 6s ease-in-out infinite}
+.float1{animation:driftBadge 5s ease-in-out infinite}
+.float2{animation:driftBadge 5.8s ease-in-out infinite reverse}
+.hero-grid>div:first-child{animation:fadeRise .8s ease both}
+.visual{animation:fadeRise 1s .12s ease both}
+.category,.product,.step{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease,border-color .35s ease}
+.category:hover,.product:hover{transform:translateY(-7px) scale(1.012);box-shadow:0 20px 45px #1c214018;border-color:#d8d2ff}
+.btn,.pill,.smallbtn{transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+.btn:hover,.pill:hover{transform:translateY(-2px);box-shadow:0 9px 22px #6d5dfc25}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.8,.2,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.product:nth-child(3n+2),.category:nth-child(3n+2){transition-delay:.06s}
+.product:nth-child(3n),.category:nth-child(3n){transition-delay:.12s}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+
+
+/* Premium catalog cards — image panels follow each artwork's natural ratio */
+.products{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:24px}
+.product{overflow:hidden;border:1px solid rgba(255,255,255,.12);border-radius:22px;background:#17171d;box-shadow:0 14px 38px rgba(10,10,20,.16);transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease}
+.product:hover{transform:translateY(-7px);box-shadow:0 24px 55px rgba(0,0,0,.24);border-color:rgba(150,125,255,.65)}
+.thumb.image-thumb{height:auto;min-height:0;aspect-ratio:auto;padding:0;display:block;position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#494052 0%,#28232f 48%,#17171d 100%);border-bottom:1px solid rgba(255,255,255,.08);line-height:0}
+.thumb.image-thumb:before{content:"";position:absolute;inset:12% 14%;border-radius:50%;background:rgba(139,92,246,.18);filter:blur(45px);z-index:-1;transition:transform .5s ease,opacity .5s ease}
+.product:hover .thumb.image-thumb:before{transform:scale(1.18);opacity:.9}
+.thumb.image-thumb img{position:relative;width:100%;height:auto;max-width:100%;max-height:520px;object-fit:contain;object-position:center;display:block;border-radius:0;filter:drop-shadow(0 12px 20px rgba(0,0,0,.25));transition:transform .45s cubic-bezier(.2,.8,.2,1),filter .45s ease}
+.product:hover .thumb.image-thumb img{transform:scale(1.025);filter:drop-shadow(0 18px 25px rgba(0,0,0,.38))}
+.thumb.image-thumb .tag{position:absolute;top:16px;left:16px;z-index:2;background:rgba(12,12,16,.88);color:#fff;border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(12px);padding:8px 12px;border-radius:999px;font-size:10px;letter-spacing:.03em;line-height:1.2}
+.product-info{padding:18px 20px 17px;background:linear-gradient(180deg,#1d1c23 0%,#15151a 100%);min-height:0}
+.product-info h3{color:#fff;font-size:15px;line-height:1.45;margin:0 0 7px}
+.product-info .meta{color:#aaa5b5;font-size:11px}
+.product-info .price-row{margin-top:15px;align-items:center}
+.product-info .price{color:#fff;font-weight:850}
+.product-info .smallbtn{background:#292538;color:#b9a7ff;border:1px solid rgba(185,167,255,.2);border-radius:11px;padding:10px 14px;font-weight:750}
+.product-info .smallbtn:hover{background:#7454db;color:white}
+.image-thumb.image-failed{min-height:220px;display:grid;place-items:center;background:linear-gradient(135deg,#24212d,#15151a)}
+.image-thumb.image-failed:after{content:"Preview image could not be loaded";color:#d8d2e6;font-size:13px;text-align:center;padding:25px;line-height:1.4}
+@media(max-width:950px){.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.thumb.image-thumb img{max-height:500px}}
+@media(max-width:600px){.products{grid-template-columns:1fr;gap:18px}.thumb.image-thumb img{max-height:560px}.product-info{padding:18px}}
+@media(prefers-reduced-motion:reduce){.product,.thumb.image-thumb img,.thumb.image-thumb:before{transition:none!important}}
+
+
+/* H.M DEVMITH — matte black + signature orange identity */
+:root{--ink:#f5f3ef;--muted:#aaa49d;--line:#34302b;--paper:#101010;--soft:#171615;--accent:#ff6a00;--accent2:#ff9a3d;--green:#ff8a26}
+html,body{background:#101010;color:#f5f3ef}
+body{background:radial-gradient(circle at 50% -20%,#21140c 0,transparent 42%),#101010}
+.topbar{background:#080808;color:#ffb06a;border-bottom:1px solid #382013}
+header{background:rgba(13,13,13,.91);border-bottom:1px solid #33251d}
+.brand span,nav a:hover,.eyebrow,.step b{color:#ff7a18}
+nav{color:#d2ccc5}
+.primary{background:linear-gradient(135deg,#ff7a18,#ff4d00);color:#fff;box-shadow:0 8px 24px rgba(255,100,0,.18)}
+.dark{background:#29231e;color:#fff;border:1px solid #514033}
+.outline{background:#171513;border:1px solid #55402f;color:#f5f3ef}
+.cart{background:#1c1916;border-color:#46372c;color:#fff}
+.count{background:#ff6a00}
+.hero{background:radial-gradient(circle at 75% 35%,rgba(255,100,0,.13),transparent 34%),linear-gradient(135deg,#101010,#17120f 60%,#0d0d0d)}
+.hero p,.sub,.note{color:#b9b1a8}
+.hero h1 span{color:#ff7a18!important}
+.trust{border-color:#332b25;background:#111}
+.trustrow{color:#aaa198}
+.section{background:#101010}
+.shop-area{background:#151311}
+.category{background:#181614;border-color:#39302a;color:#f5f3ef}
+.category:hover,.product:hover{box-shadow:0 18px 45px rgba(255,100,0,.10)}
+.cat-icon{background:rgba(255,106,0,.13);color:#ff8126}
+.product{background:#171513;border-color:#3a3029}
+.product-info{background:linear-gradient(180deg,#1d1a17,#141210)}
+.product-info h3,.product-info .price{color:#fff}
+.product-info .meta{color:#aaa198}
+.product-info .smallbtn,.smallbtn{background:#2b2119;color:#ff9a4d;border:1px solid #54341f}
+.product-info .smallbtn:hover,.smallbtn:hover{background:#ff6a00;color:#fff}
+.tag{background:#0b0b0b;color:#fff;border:1px solid #493020}
+.thumb.image-thumb{background:radial-gradient(ellipse at 50% 45%,#33251c 0%,#201a16 50%,#151311 100%)}
+.thumb.image-thumb:before{background:rgba(255,106,0,.16)}
+.step{border-color:#ff6a00}
+.step b{color:#ff8a36}
+.step p,.footgrid p,.footgrid a{color:#aaa198}
+.cta{background:linear-gradient(120deg,#21160f,#111);border:1px solid #53301b;box-shadow:0 20px 60px rgba(255,90,0,.08)}
+footer{background:#0b0b0b;border-color:#332820}
+.copyright{border-color:#332820;color:#8f867d}
+.shop-head{background:linear-gradient(120deg,#17110d,#111)}
+.search,.shop-controls select{background:#1b1917;border-color:#46382e;color:#f5f3ef}
+.filters{background:#181614;border-color:#3b3028}
+.filters h3{color:#f5f3ef}
+.filter-list{color:#b9b1a8}
+.filter-list input{accent-color:#ff6a00}
+.modal{background:#171513;color:#f5f3ef;border:1px solid #49372a}
+.modal p{color:#b9b1a8}
+.close{background:#29211b;color:#fff}
+.empty{color:#aaa198}
+/* Owner portrait hero feature */
+.owner-visual{min-height:520px;display:grid;place-items:center;position:relative;isolation:isolate}
+.owner-glow{position:absolute;width:82%;height:80%;border-radius:50%;background:radial-gradient(circle,rgba(255,100,0,.48),rgba(255,83,0,.15) 48%,transparent 72%);filter:blur(30px);z-index:-1;animation:ownerPulse 4s ease-in-out infinite}
+.owner-frame{width:min(430px,100%);height:520px;position:relative;overflow:hidden;border-radius:28px;border:1px solid rgba(255,133,48,.5);background:#090909;box-shadow:0 28px 80px rgba(0,0,0,.58),0 0 42px rgba(255,96,0,.16);transform:rotate(1deg)}
+.owner-frame:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,transparent 54%,rgba(0,0,0,.9) 100%)}
+.owner-frame img{width:100%;height:100%;object-fit:cover;object-position:center 24%;display:block;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.owner-frame:hover img{transform:scale(1.045)}
+.owner-caption{position:absolute;z-index:2;left:24px;right:24px;bottom:24px;display:flex;flex-direction:column;gap:5px;color:#fff}
+.owner-kicker{font-size:9px;letter-spacing:.19em;font-weight:850;color:#ff9b50}
+.owner-caption strong{font-size:clamp(25px,3vw,34px);letter-spacing:-.05em}
+.owner-caption small{font-size:12px;color:#e0d4c9}
+.owner-badge{position:absolute;z-index:3;left:-12px;top:36px;padding:12px 16px;border:1px solid rgba(255,141,63,.45);border-radius:999px;background:rgba(20,15,11,.88);backdrop-filter:blur(12px);font-size:9px;font-weight:850;letter-spacing:.08em;color:#ffd2ae;box-shadow:0 12px 30px #0008}
+.owner-dot{display:inline-block;width:7px;height:7px;background:#ff6a00;border-radius:50%;margin-right:8px;box-shadow:0 0 12px #ff6a00}
+@keyframes ownerPulse{0%,100%{transform:scale(.96);opacity:.75}50%{transform:scale(1.06);opacity:1}}
+@media(max-width:760px){.owner-visual{min-height:440px}.owner-frame{height:440px;width:min(360px,90%)}.owner-badge{left:0;top:18px;font-size:8px}.hero{padding:48px 0 42px}.hero-grid{gap:22px}}
+@media(prefers-reduced-motion:reduce){.owner-glow{animation:none}.owner-frame img{transition:none}}
+
+
+/* Creative motion pass — animated hero, orbit details and illuminated actions */
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.22;
+ background-image:linear-gradient(rgba(255,125,35,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,125,35,.08) 1px,transparent 1px);
+ background-size:54px 54px;mask-image:linear-gradient(90deg,transparent,#000 48%,#000)}
+.hero:after{content:"";position:absolute;z-index:-1;pointer-events:none;width:520px;height:520px;right:-190px;top:-260px;border-radius:50%;
+ background:radial-gradient(circle,rgba(255,103,0,.17),transparent 68%);filter:blur(8px);animation:heroAmbient 9s ease-in-out infinite alternate}
+.hero-grid>div:first-child{animation:heroTextIn .85s cubic-bezier(.2,.8,.2,1) both}
+.hero .eyebrow{display:inline-flex;align-items:center;gap:10px}
+.hero .eyebrow:before{content:"";width:24px;height:2px;background:#ff7417;box-shadow:0 0 12px #ff7417}
+.hero h1{animation:headlineIn 1s .12s cubic-bezier(.2,.8,.2,1) both}
+.hero p{animation:heroTextIn .8s .2s both}
+.hero .actions{animation:heroTextIn .8s .32s both}
+.hero .note{animation:heroTextIn .8s .42s both}
+.actions .btn{position:relative;overflow:hidden;isolation:isolate;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.actions .btn:before{content:"";position:absolute;inset:-2px;z-index:-1;opacity:0;transform:translateX(-120%) skewX(-22deg);
+ background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.38) 48%,transparent 72%);transition:transform .65s ease,opacity .2s ease}
+.actions .btn:hover:before{opacity:1;transform:translateX(120%) skewX(-22deg)}
+.actions .btn.primary{background:linear-gradient(110deg,#ff7b18,#ff5100 52%,#ff8a25);background-size:180% 180%;
+ box-shadow:0 0 0 1px rgba(255,150,75,.24),0 8px 22px rgba(255,91,0,.27),0 0 28px rgba(255,95,0,.15);
+ animation:buttonGlow 3s ease-in-out infinite}
+.actions .btn.primary:hover{transform:translateY(-4px) scale(1.035);box-shadow:0 0 0 1px #ffb16e,0 12px 30px rgba(255,91,0,.42),0 0 42px rgba(255,95,0,.3)}
+.actions .btn.outline{border-color:#75543e;box-shadow:inset 0 0 0 1px rgba(255,126,43,.04),0 0 0 rgba(255,100,0,0);background:rgba(23,19,16,.8)}
+.actions .btn.outline:hover{transform:translateY(-4px);border-color:#ff8a36;color:#fff;box-shadow:0 0 0 1px rgba(255,126,43,.18),0 0 24px rgba(255,100,0,.22)}
+.owner-visual{perspective:1000px}
+.owner-frame{transform:rotateY(-5deg) rotateX(1deg);transform-style:preserve-3d;animation:portraitFloat 6s ease-in-out infinite;box-shadow:0 30px 85px rgba(0,0,0,.65),0 0 0 1px rgba(255,134,52,.2),0 0 42px rgba(255,96,0,.2)}
+.owner-frame:after{content:"";position:absolute;z-index:2;inset:0;pointer-events:none;border-radius:inherit;
+ background:linear-gradient(115deg,transparent 0%,transparent 38%,rgba(255,255,255,.09) 48%,transparent 58%,transparent 100%);
+ transform:translateX(-120%);animation:portraitShine 7s ease-in-out infinite}
+.owner-frame img{filter:saturate(1.08) contrast(1.025)}
+.owner-glow{width:92%;height:90%;filter:blur(42px);background:radial-gradient(circle,rgba(255,100,0,.56),rgba(255,83,0,.2) 45%,transparent 72%);animation:ownerPulse 3.4s ease-in-out infinite}
+.owner-orbit{position:absolute;z-index:-1;left:50%;top:50%;border:1px solid rgba(255,132,49,.27);border-radius:50%;pointer-events:none}
+.orbit-one{width:510px;height:510px;transform:translate(-50%,-50%) rotate(-24deg) scaleY(.42);animation:orbitSpin 22s linear infinite}
+.orbit-two{width:560px;height:560px;border-style:dashed;border-color:rgba(255,132,49,.16);transform:translate(-50%,-50%) rotate(35deg) scaleY(.38);animation:orbitSpin 34s linear infinite reverse}
+.owner-spark{position:absolute;z-index:4;color:#ff9a4d;text-shadow:0 0 12px #ff6a00,0 0 28px #ff6a00;font-size:27px;animation:sparkDrift 4s ease-in-out infinite}
+.spark-one{top:18%;right:5%}.spark-two{bottom:18%;left:4%;font-size:20px;animation-delay:1.3s}
+.owner-badge{box-shadow:0 10px 30px #0009,0 0 22px rgba(255,106,0,.15);animation:badgeFloat 5s ease-in-out infinite}
+.owner-dot{animation:dotBeat 1.8s ease-in-out infinite}
+@keyframes heroTextIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes headlineIn{from{opacity:0;transform:translateY(28px) scale(.985);filter:blur(7px)}to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+@keyframes buttonGlow{0%,100%{box-shadow:0 0 0 1px rgba(255,150,75,.2),0 8px 22px rgba(255,91,0,.24),0 0 20px rgba(255,95,0,.1)}50%{box-shadow:0 0 0 1px rgba(255,174,105,.45),0 9px 28px rgba(255,91,0,.36),0 0 36px rgba(255,95,0,.24)}}
+@keyframes portraitFloat{0%,100%{transform:translateY(0) rotateY(-5deg) rotateX(1deg)}50%{transform:translateY(-10px) rotateY(-2deg) rotateX(1deg)}}
+@keyframes portraitShine{0%,58%{transform:translateX(-120%)}78%,100%{transform:translateX(120%)}}
+@keyframes orbitSpin{from{rotate:0deg}to{rotate:360deg}}
+@keyframes sparkDrift{0%,100%{transform:translate3d(0,0,0) rotate(0);opacity:.55}50%{transform:translate3d(7px,-14px,0) rotate(22deg);opacity:1}}
+@keyframes badgeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes dotBeat{0%,100%{box-shadow:0 0 0 0 rgba(255,106,0,.6)}50%{box-shadow:0 0 0 7px rgba(255,106,0,0)}}
+@keyframes heroAmbient{from{transform:translate3d(0,0,0) scale(.9)}to{transform:translate3d(-70px,80px,0) scale(1.15)}}
+@media(max-width:760px){.orbit-one{width:390px;height:390px}.orbit-two{width:430px;height:430px}.owner-spark{display:none}.owner-frame{transform:none;animation:portraitFloatMobile 6s ease-in-out infinite}.owner-frame:hover{transform:none}}
+@keyframes portraitFloatMobile{0%,100%{translate:0 0}50%{translate:0 -7px}}
+@media(prefers-reduced-motion:reduce){
+ .hero-grid>div:first-child,.hero h1,.hero p,.hero .actions,.hero .note,.owner-frame,.owner-glow,.owner-badge,.owner-dot,.owner-spark,.orbit-one,.orbit-two,.actions .btn.primary,.owner-frame:after,.hero:after{animation:none!important}
+ .actions .btn,.owner-frame img{transition:none!important}
+}
+
+
+/* About Manusha Devmith — monochrome portrait with orange accents */
+.about-section{position:relative;overflow:hidden;background:linear-gradient(120deg,#111 0%,#171717 52%,#101010 100%)}
+.about-section:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 18% 48%,rgba(255,106,0,.11),transparent 36%)}
+.about-grid{position:relative;display:grid;grid-template-columns:minmax(280px,.88fr) minmax(0,1.12fr);gap:clamp(38px,7vw,92px);align-items:center}
+.about-photo-wrap{position:relative;max-width:460px;width:100%;margin:auto;padding:18px}
+.about-photo-halo{position:absolute;inset:8% 0 4%;border-radius:48%;background:radial-gradient(ellipse,rgba(255,106,0,.24),transparent 68%);filter:blur(38px);animation:aboutHalo 5s ease-in-out infinite}
+.about-photo-frame{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:26px;background:#0a0a0a;border:1px solid #4a392d;box-shadow:0 28px 70px #0009,0 0 35px rgba(255,106,0,.10);transform:rotate(-1.5deg);transition:transform .45s ease,border-color .45s ease}
+.about-photo-frame:hover{transform:rotate(0) translateY(-6px);border-color:#ff7a25}
+.about-photo-frame:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.88))}
+.about-photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center 28%;display:block;filter:grayscale(1) contrast(1.06);transition:transform .7s ease}
+.about-photo-frame:hover img{transform:scale(1.04)}
+.about-photo-caption{position:absolute;z-index:2;left:24px;right:20px;bottom:23px;display:flex;flex-direction:column;gap:6px;color:#fff}
+.about-photo-caption span{font-size:9px;letter-spacing:.18em;font-weight:800;color:#ff9a50}
+.about-photo-caption strong{font-size:clamp(19px,2.3vw,27px);letter-spacing:-.045em}
+.about-years{position:absolute;right:-5px;top:42px;z-index:3;display:flex;align-items:center;gap:10px;padding:12px 16px;background:#ff6a00;color:#fff;border-radius:13px;box-shadow:0 10px 28px #ff6a0045;transform:rotate(3deg)}
+.about-years strong{font-size:36px;line-height:1;letter-spacing:-.07em}
+.about-years span{font-size:9px;line-height:1.3;font-weight:850;letter-spacing:.08em}
+.about-cross{position:absolute;color:#ff8b3a;text-shadow:0 0 18px #ff6a00;font-size:25px;animation:aboutSpark 4s ease-in-out infinite}
+.about-cross-one{left:0;top:12%}.about-cross-two{right:5%;bottom:8%;animation-delay:1.5s}
+.about-copy .eyebrow{margin-bottom:12px}
+.about-copy h2{font-size:clamp(34px,4.2vw,54px);line-height:1.06;letter-spacing:-.06em;margin:0 0 22px;max-width:680px}
+.about-copy h2 span{color:#ff7a18}
+.about-copy p{max-width:680px;color:#bdb5ad;font-size:14px;line-height:1.9;margin:0 0 14px}
+.about-copy .about-lead{font-size:16px;color:#eee7e0}
+.about-copy .about-lead strong{color:#fff}
+.about-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:27px 0 20px}
+.about-facts>div{padding:14px 15px;border:1px solid #39302a;border-radius:13px;background:linear-gradient(145deg,#1c1916,#131210)}
+.about-facts strong{display:block;font-size:24px;color:#ff8a36;letter-spacing:-.04em;margin-bottom:4px}
+.about-facts span{font-size:8px;font-weight:850;letter-spacing:.12em;color:#aaa198}
+.about-tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+.about-tags span{font-size:10px;color:#e5dcd4;padding:8px 11px;border:1px solid #45352a;border-radius:999px;background:#1b1714}
+.about-cta{box-shadow:0 0 24px rgba(255,106,0,.2)}
+@keyframes aboutHalo{0%,100%{opacity:.65;transform:scale(.96)}50%{opacity:1;transform:scale(1.05)}}
+@keyframes aboutSpark{0%,100%{transform:translateY(0) rotate(0);opacity:.6}50%{transform:translateY(-12px) rotate(25deg);opacity:1}}
+@media(max-width:820px){.about-grid{grid-template-columns:1fr;gap:35px}.about-photo-wrap{max-width:390px}.about-copy{max-width:680px;margin:auto}.about-copy h2{font-size:clamp(34px,8vw,48px)}}
+@media(max-width:480px){.about-photo-wrap{padding:12px}.about-years{right:-2px;top:25px;padding:9px 12px}.about-years strong{font-size:30px}.about-facts{gap:7px}.about-facts>div{padding:11px 9px}.about-facts strong{font-size:20px}.about-facts span{font-size:7px}}
+@media(prefers-reduced-motion:reduce){.about-photo-halo,.about-cross{animation:none}.about-photo-frame,.about-photo-frame img{transition:none}}
+
+</style>
+</head>
+<body>
+<div class="topbar">CREATIVE DESIGN SOLUTIONS • MADE FOR YOUR BRAND</div>
+<header><div class="wrap nav">
+<a class="brand" href="#home">H.M <span>DEVMITH</span></a>
+<nav><a href="#home">Home</a><a href="#about">About me</a><a href="#shop" onclick="return showShop(event)">Shop</a><a href="#categories">Categories</a><a href="#process">How it works</a><a href="#contact">Contact</a></nav>
+<div class="navright"><button class="cart" aria-label="Open cart" onclick="openCart()">🛒<span class="count" id="cartCount">0</span></button><a class="pill primary" href="https://wa.me/9474369677" target="_blank">WhatsApp Us ↗</a></div>
+</div></header>
+<main id="homeView">
+<section class="hero"><div class="wrap hero-grid"><div>
+<div class="eyebrow">Independent creative design studio</div>
+<h1>Creative tute covers that make learning <span style="color:var(--accent)">stand out.</span></h1>
+<p>Discover professional, thoughtful and customizable graphic designs for your business, education and everyday ideas.</p>
+<div class="actions"><a class="btn primary" href="#shop" onclick="return showShop(event)">Explore the shop →</a><a class="btn outline" href="https://wa.me/9474369677?text=Hello%20Broves%20Design%2C%20I%20would%20like%20to%20discuss%20a%20design." target="_blank">Talk to our team</a></div>
+<div class="note">Custom designs • Personal support • Sri Lankan Rupees</div>
+</div><div class="visual owner-visual">
+  <div class="owner-glow"></div>
+  <div class="owner-orbit orbit-one"></div><div class="owner-orbit orbit-two"></div>
+  <div class="owner-spark spark-one">✦</div><div class="owner-spark spark-two">✧</div>
+  <div class="owner-frame">
+    <img src="./assets/hm-devmith-owner.png" alt="H.M Devmith, owner of this website" loading="eager">
+    <div class="owner-caption"><span class="owner-kicker">FOUNDER &amp; CREATIVE DIRECTOR</span><strong>MANUSHA DEVMITH</strong><small>Turning creative ideas into impact.</small></div>
+  </div>
+  <div class="owner-badge"><span class="owner-dot"></span> THE PERSON BEHIND THE DESIGNS</div>
+</div></div></section>
+<div class="trust"><div class="wrap trustrow"><span>GRAPHIC DESIGN</span><span>BRAND IDENTITY</span><span>SOCIAL MEDIA</span><span>EDUCATION DESIGNS</span><span>CUSTOM CREATIVE WORK</span></div></div>
+<section class="section" id="categories"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Explore what we create</div><h2>Designs for every idea.</h2><p class="sub">Browse our design categories and find the right starting point for your next project.</p></div><a class="btn outline" href="#shop" onclick="return showShop(event)">View all designs →</a></div><div class="grid" id="categoryGrid"></div></div></section>
+<section class="section shop-area" id="featured"><div class="wrap"><div class="section-head"><div><div class="eyebrow">A few customer favourites</div><h2>Featured designs.</h2><p class="sub">Explore selected TUTE Cover catalog designs and Social Media Post samples.</p></div><a class="btn dark" href="#shop" onclick="return showShop(event)">Visit the shop →</a></div><div class="products" id="featuredGrid"></div></div></section>
+
+<section class="section about-section" id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo-wrap">
+      <div class="about-photo-halo"></div>
+      <div class="about-photo-frame">
+        <img src="./assets/manusha-devmith-about-bw.jpg" alt="Manusha Devmith, graphic designer" loading="lazy">
+        <div class="about-photo-caption"><span>THE DESIGNER BEHIND THE WORK</span><strong>MANUSHA DEVMITH</strong></div>
+      </div>
+      <div class="about-years"><strong>07</strong><span>YEARS OF<br>DESIGN EXPERIENCE</span></div>
+      <span class="about-cross about-cross-one">✳</span><span class="about-cross about-cross-two">✦</span>
+    </div>
+    <div class="about-copy">
+      <div class="eyebrow">A little about me</div>
+      <h2>Creativity is more than a skill. <span>It’s how I see the world.</span></h2>
+      <p class="about-lead">Hello, I’m <strong>Manusha Devmith</strong> — a 22-year-old graphic designer from Horana, Sri Lanka, with seven years of experience turning ideas into visual designs.</p>
+      <p>I enjoy creating designs that communicate clearly, feel memorable and suit the people they are made for. My work includes educational TUTE covers, social media posts, promotional graphics and other creative design projects.</p>
+      <p>For me, good design is not only about appearance. It is about understanding the message, choosing the right visual direction and paying attention to the details that bring everything together. I value creativity, consistency and clear communication throughout every project.</p>
+      <div class="about-facts">
+        <div><strong>22</strong><span>YEARS OLD</span></div>
+        <div><strong>07+</strong><span>YEARS DESIGNING</span></div>
+        <div><strong>HORANA</strong><span>SRI LANKA</span></div>
+      </div>
+      <div class="about-tags"><span>Graphic Design</span><span>TUTE Covers</span><span>Social Media</span><span>Creative Concepts</span></div>
+      <a class="btn primary about-cta" href="https://wa.me/9474369677?text=Hello%20Manusha%2C%20I%20would%20like%20to%20discuss%20a%20design%20project." target="_blank" rel="noopener">Let’s create something →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process"><div class="wrap"><div class="eyebrow">Simple from start to finish</div><h2>How it works.</h2><p class="sub" style="margin-bottom:30px">A clear process to help you move from an idea to a finished design.</p><div class="steps"><div class="step"><b>01 / DISCOVER</b><h3>Browse designs</h3><p>Explore the shop and choose a design category or product.</p></div><div class="step"><b>02 / SELECT</b><h3>Choose your option</h3><p>Review the details and select the service that fits your needs.</p></div><div class="step"><b>03 / CONFIRM</b><h3>Share your brief</h3><p>Send your text, preferences and reference details through WhatsApp.</p></div><div class="step"><b>04 / CREATE</b><h3>Receive your design</h3><p>Work with the design team to complete your requested design.</p></div></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="cta"><div><h2>Have an idea in mind?</h2><p>Tell us what you need. Let's create something meaningful.</p></div><a class="btn primary" href="https://wa.me/9474369677?text=Hello%20Broves%20Design%2C%20I%20have%20a%20design%20enquiry." target="_blank">Start a WhatsApp chat ↗</a></div></div></section>
+</main>
+<main id="shopView" style="display:none">
+<section class="shop-head"><div class="wrap"><div class="eyebrow">H.M DEVMITH store</div><h1>TUTE Cover Catalog</h1><p class="sub">All 20 newly uploaded TUTE cover designs are displayed below in full. Images are fitted inside each preview without cropping. Filter the catalog or browse our social media post designs.</p></div></section>
+<section class="section" style="padding-top:30px"><div class="wrap">
+<div class="shop-controls"><input class="search" id="search" placeholder="Search designs..." oninput="renderShop()"><select id="sort" onchange="renderShop()"><option value="featured">Sort: Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="name">Name: A–Z</option></select></div>
+<div class="shop-layout"><aside class="filters"><h3>Categories</h3><div class="filter-list" id="filterList"></div></aside><div><div class="shop-results"><span id="resultCount">Showing products</span><span>Prices in LKR</span></div><div class="products" id="shopGrid"></div></div></div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="footgrid"><div><a class="brand" href="#home">H.M <span>DEVMITH</span></a><p>TUTE Cover catalog, social media posts and creative graphic design services.</p></div><div><h4>Explore</h4><a href="#home" onclick="goHome()">Home</a><a href="#shop" onclick="return showShop(event)">Shop</a><a href="#categories" onclick="goHome()">Categories</a></div><div><h4>Categories</h4><a href="#shop" onclick="return showShop(event)">Social media designs</a><a href="#shop" onclick="return showShop(event)">Tute & book covers</a><a href="#shop" onclick="return showShop(event)">Branding</a></div><div><h4>Contact</h4><a href="https://wa.me/9474369677" target="_blank">WhatsApp: 074 369 4677</a><a href="mailto:hello@hmdevmith.example">Email: add your email</a><a href="#contact">Send an enquiry</a></div></div><div class="copyright">© <span id="year"></span> H.M DEVMITH. All rights reserved.</div></div></footer>
+<a class="whatsapp" href="https://wa.me/9474369677?text=Hello%20Broves%20Design%2C%20I%20visited%20your%20website." target="_blank" aria-label="Chat with H.M DEVMITH on WhatsApp">◉</a>
+<div class="modalback" id="modalBack" onclick="if(event.target===this)closeModal()"><div class="modal" id="modal"></div></div>
+<script>
+const WA='9474369677';
+const categories=[
+['TUTE Cover','📘','40 designs in the updated TUTE Cover Catalog — Rs. 800 each.'],
+['Social Media Posts','▧','16 creative social media post samples. Request a quote for your design.']
+];
+const products=[{"id": 1, "name": "H.M DEVMITH TUTE Cover Design 01", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-01.jpg"}, {"id": 2, "name": "H.M DEVMITH TUTE Cover Design 02", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-02.jpg"}, {"id": 3, "name": "H.M DEVMITH TUTE Cover Design 03", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-03.jpg"}, {"id": 4, "name": "H.M DEVMITH TUTE Cover Design 04", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-04.png"}, {"id": 5, "name": "H.M DEVMITH TUTE Cover Design 05", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-05.png"}, {"id": 6, "name": "H.M DEVMITH TUTE Cover Design 06", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-06.jpg"}, {"id": 7, "name": "H.M DEVMITH TUTE Cover Design 07", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-07.png"}, {"id": 8, "name": "H.M DEVMITH TUTE Cover Design 08", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-08.png"}, {"id": 9, "name": "H.M DEVMITH TUTE Cover Design 09", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-09.jpg"}, {"id": 10, "name": "H.M DEVMITH TUTE Cover Design 10", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-10.png"}, {"id": 11, "name": "H.M DEVMITH TUTE Cover Design 11", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-11.png"}, {"id": 12, "name": "H.M DEVMITH TUTE Cover Design 12", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-12.png"}, {"id": 13, "name": "H.M DEVMITH TUTE Cover Design 13", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-13.jpeg"}, {"id": 14, "name": "H.M DEVMITH TUTE Cover Design 14", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-14.png"}, {"id": 15, "name": "H.M DEVMITH TUTE Cover Design 15", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-15.png"}, {"id": 16, "name": "H.M DEVMITH TUTE Cover Design 16", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-16.png"}, {"id": 17, "name": "H.M DEVMITH TUTE Cover Design 17", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-17.png"}, {"id": 18, "name": "H.M DEVMITH TUTE Cover Design 18", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-18.png"}, {"id": 19, "name": "H.M DEVMITH TUTE Cover Design 19", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-19.png"}, {"id": 20, "name": "H.M DEVMITH TUTE Cover Design 20", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-20.jpg"}, {"id": 37, "name": "H.M DEVMITH TUTE Cover Design 21", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-21.png"}, {"id": 38, "name": "H.M DEVMITH TUTE Cover Design 22", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-22.png"}, {"id": 39, "name": "H.M DEVMITH TUTE Cover Design 23", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-23.png"}, {"id": 40, "name": "H.M DEVMITH TUTE Cover Design 24", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-24.png"}, {"id": 41, "name": "H.M DEVMITH TUTE Cover Design 25", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-25.png"}, {"id": 42, "name": "H.M DEVMITH TUTE Cover Design 26", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-26.png"}, {"id": 43, "name": "H.M DEVMITH TUTE Cover Design 27", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-27.png"}, {"id": 44, "name": "H.M DEVMITH TUTE Cover Design 28", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-28.png"}, {"id": 45, "name": "H.M DEVMITH TUTE Cover Design 29", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-29.png"}, {"id": 46, "name": "H.M DEVMITH TUTE Cover Design 30", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-30.jpeg"}, {"id": 47, "name": "H.M DEVMITH TUTE Cover Design 31", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-31.jpeg"}, {"id": 48, "name": "H.M DEVMITH TUTE Cover Design 32", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-32.jpeg"}, {"id": 49, "name": "H.M DEVMITH TUTE Cover Design 33", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-33.jpeg"}, {"id": 50, "name": "H.M DEVMITH TUTE Cover Design 34", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-34.jpeg"}, {"id": 51, "name": "H.M DEVMITH TUTE Cover Design 35", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-35.jpeg"}, {"id": 52, "name": "H.M DEVMITH TUTE Cover Design 36", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-36.jpeg"}, {"id": 53, "name": "H.M DEVMITH TUTE Cover Design 37", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-37.jpeg"}, {"id": 54, "name": "H.M DEVMITH TUTE Cover Design 38", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-38.jpeg"}, {"id": 55, "name": "H.M DEVMITH TUTE Cover Design 39", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-39.jpeg"}, {"id": 56, "name": "H.M DEVMITH TUTE Cover Design 40", "cat": "TUTE Cover", "price": 800, "desc": "A selected TUTE cover design from the H.M DEVMITH catalog. Contact us on WhatsApp to request customization, subject details, colours and final artwork.", "label": "TUTE Cover", "image": "./assets/tute-catalog-40.jpeg"}, {"id": 21, "name": "H.M DEVMITH Social Media Post Design 01", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-01.jpg"}, {"id": 22, "name": "H.M DEVMITH Social Media Post Design 02", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-02.jpg"}, {"id": 23, "name": "H.M DEVMITH Social Media Post Design 03", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-03.jpg"}, {"id": 24, "name": "H.M DEVMITH Social Media Post Design 04", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-04.jpg"}, {"id": 25, "name": "H.M DEVMITH Social Media Post Design 05", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-05.jpg"}, {"id": 26, "name": "H.M DEVMITH Social Media Post Design 06", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-06.jpg"}, {"id": 27, "name": "H.M DEVMITH Social Media Post Design 07", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-07.jpg"}, {"id": 28, "name": "H.M DEVMITH Social Media Post Design 08", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-08.jpg"}, {"id": 29, "name": "H.M DEVMITH Social Media Post Design 09", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-09.jpg"}, {"id": 30, "name": "H.M DEVMITH Social Media Post Design 10", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-10.jpg"}, {"id": 31, "name": "H.M DEVMITH Social Media Post Design 11", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-11.jpg"}, {"id": 32, "name": "H.M DEVMITH Social Media Post Design 12", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-12.jpg"}, {"id": 33, "name": "H.M DEVMITH Social Media Post Design 13", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-13.jpg"}, {"id": 34, "name": "H.M DEVMITH Social Media Post Design 14", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-14.jpg"}, {"id": 35, "name": "H.M DEVMITH Social Media Post Design 15", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-15.jpg"}, {"id": 36, "name": "H.M DEVMITH Social Media Post Design 16", "cat": "Social Media Posts", "price": null, "desc": "Social media advertising and promotional post design. Contact H.M DEVMITH on WhatsApp for a quotation and customization.", "label": "Social Media Post", "image": "./assets/social-media-post-16.jpg"}];
+let cart=[];
+
+function activateReveal(){
+  const targets=document.querySelectorAll('.section-head,.category,.product,.step,.cta');
+  targets.forEach(el=>el.classList.add('reveal'));
+  if(!('IntersectionObserver' in window)){targets.forEach(el=>el.classList.add('visible'));return}
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}
+  }),{threshold:.12});
+  targets.forEach(el=>observer.observe(el));
+}
+
+function money(n){return 'Rs. '+n.toLocaleString('en-LK')}
+function productCard(p){return `<article class="product"><div class="thumb image-thumb"><span class="tag">${p.label}</span><img src="${p.image}" alt="${p.name}" loading="lazy" decoding="async" onerror="this.onerror=null;this.closest('.image-thumb').classList.add('image-failed');this.remove()"></div><div class="product-info"><h3>${p.name}</h3><div class="meta">${p.cat}</div><div class="price-row"><span class="price">${p.price===null?'Request a quote':money(p.price)}</span><button class="smallbtn" onclick="details(${p.id})">View details</button></div></div></article>`}
+function renderCategories(){document.getElementById('categoryGrid').innerHTML=categories.map(c=>`<a class="category" href="#shop" onclick="return showShop(event,'${c[0]}')"><div class="cat-icon">${c[1]}</div><h3>${c[0]}</h3><p>${c[2]}</p></a>`).join('')}
+function renderFeatured(){let picks=[...products.filter(p=>p.cat==='TUTE Cover').slice(0,3),...products.filter(p=>p.cat==='Social Media Posts').slice(0,3)];document.getElementById('featuredGrid').innerHTML=picks.map(productCard).join('')}
+function renderFilters(){document.getElementById('filterList').innerHTML=`<label><input type="radio" name="cat" value="all" checked onchange="renderShop()"> All designs</label>`+categories.map(c=>`<label><input type="radio" name="cat" value="${c[0]}" onchange="renderShop()"> ${c[0]}</label>`).join('')}
+function renderShop(){let q=(document.getElementById('search').value||'').toLowerCase(),cat=document.querySelector('input[name="cat"]:checked')?.value||'all',sort=document.getElementById('sort').value;let list=products.filter(p=>(cat==='all'||p.cat===cat)&&(p.name+' '+p.cat+' '+p.desc).toLowerCase().includes(q));if(sort==='low')list.sort((a,b)=>(a.price??Number.MAX_SAFE_INTEGER)-(b.price??Number.MAX_SAFE_INTEGER));if(sort==='high')list.sort((a,b)=>(b.price??-1)-(a.price??-1));if(sort==='name')list.sort((a,b)=>a.name.localeCompare(b.name));document.getElementById('resultCount').textContent=`Showing ${list.length} design${list.length===1?'':'s'}`;document.getElementById('shopGrid').innerHTML=list.length?list.map(productCard).join(''):`<div class="empty">No designs found. Try another search or category.</div>`;activateReveal()}
+function setShopView(cat){
+  document.getElementById('homeView').style.display='none';
+  document.getElementById('shopView').style.display='block';
+  renderFilters();
+  if(cat){const selected=[...document.querySelectorAll('input[name="cat"]')].find(x=>x.value===cat);if(selected)selected.checked=true;}
+  renderShop();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function setHomeView(){
+  document.getElementById('shopView').style.display='none';
+  document.getElementById('homeView').style.display='block';
+}
+function showShop(e,cat){
+  if(e)e.preventDefault();
+  if(location.hash!=='#shop')location.hash='shop';
+  setShopView(cat);
+  return false;
+}
+function goHome(){setHomeView();}
+function routeByHash(){if(location.hash==='#shop'){if(document.getElementById('shopView').style.display!=='block')setShopView();}else{setHomeView();}}
+window.addEventListener('hashchange',routeByHash);
+function details(id){let p=products.find(x=>x.id===id);document.getElementById('modal').innerHTML=`<button class="close" onclick="closeModal()">×</button><img src="${p.image}" alt="${p.name}" loading="eager" decoding="async" style="width:100%;max-height:520px;object-fit:contain;background:#f5f4f7;border-radius:14px;margin:20px 0"><div class="eyebrow">${p.cat}</div><h2>${p.name}</h2>${p.price===null?'<div class="price">Request a quote</div>':`<div class="price">${money(p.price)}</div>`}<p>${p.desc}</p><p><b>How to order:</b> ${p.price===null?'Contact us on WhatsApp for pricing and customization details.':'Select this design, then send your content, preferred colours and any reference material through WhatsApp. Final scope and delivery time will be confirmed before work begins.'}</p><div class="modal-actions">${p.price===null?'':`<button class="btn primary" onclick="addCart(${id});closeModal()">Add to cart</button>`}<a class="btn dark" target="_blank" href="https://wa.me/${WA}?text=${encodeURIComponent('Hello H.M DEVMITH! I am interested in '+p.name+(p.price===null?'. Please send me a quotation.':' ('+money(p.price)+'). Please share more details.')) }">Enquire via WhatsApp ↗</a></div>`;openModal()}
+function addCart(id){let p=products.find(x=>x.id===id),item=cart.find(x=>x.id===id);if(item)item.qty++;else cart.push({...p,qty:1});updateCart()}
+function updateCart(){document.getElementById('cartCount').textContent=cart.reduce((s,p)=>s+p.qty,0)}
+function openCart(){let total=cart.reduce((s,p)=>s+p.price*p.qty,0);document.getElementById('modal').innerHTML=`<button class="close" onclick="closeModal()">×</button><div class="eyebrow">Your selection</div><h2>Shopping cart</h2>${cart.length?`<div class="cartlist">${cart.map(p=>`<div class="cartitem"><span><b>${p.name}</b><br>${p.qty} × ${money(p.price)}</span><button onclick="removeCart(${p.id})">Remove</button></div>`).join('')}</div><div class="total"><span>Total</span><span>${money(total)}</span></div><p>Continue to WhatsApp to confirm your order and share customization details.</p><a class="btn primary" style="width:100%" target="_blank" href="https://wa.me/${WA}?text=${encodeURIComponent('Hello H.M DEVMITH! I would like to enquire about this order:\n'+cart.map(p=>p.name+' × '+p.qty+' — '+money(p.price*p.qty)).join('\n')+'\nTotal: '+money(total))}">Confirm order on WhatsApp ↗</a>`:`<p>Your cart is empty. Browse the shop and add a design to get started.</p><a class="btn primary" onclick="closeModal();showShop()">Explore the shop</a>`}`;openModal()}
+function removeCart(id){cart=cart.filter(p=>p.id!==id);updateCart();openCart()}
+function openModal(){document.getElementById('modalBack').classList.add('open')}function closeModal(){document.getElementById('modalBack').classList.remove('open')}
+renderCategories();renderFeatured();activateReveal();document.getElementById('year').textContent=new Date().getFullYear();
+if(location.hash==='#shop'){setShopView()}else{setHomeView()}
+</script>
+</body></html>
